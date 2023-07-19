@@ -418,3 +418,15 @@
   font-weight: 500;
   line-height: normal;
 }
+.footer-links ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 24px;
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 60px;
+}
