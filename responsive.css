@@ -50,7 +50,9 @@
     text-align: left;
     padding-left: 10%;
   }
-
+  .banner-btn1 {
+    margin-bottom: 20px;
+  }
   /* Online Gamers */
   .online-gamers {
     /* border: 5px solid blue; */
@@ -70,11 +72,13 @@
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .online-gamers-card {
     justify-content: center;
     align-items: center;
-    margin: 0 20px;
+    /* margin: 0 20px; */
   }
 
   .online-gamers-card img {
@@ -92,24 +96,33 @@
     margin: 0;
     padding: 0;
   }
+  .play-instantly-txt {
+    width: 100%;
+  }
   .play-instantly-heading {
     text-align: center;
   }
   .play-instantly-heading2 {
     text-align: center;
   }
+  .play-instantly-p1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* border: 5px solid black; */
+  }
   .play-instantly-p {
-    display: grid;
+    /* border: 2px solid tomato; */
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 40px;
-    padding-left: 50px;
+    margin-right: 0px;
   }
   .play-instantly-img {
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 90%;
     margin: 0 40px;
     padding: 0 auto;
     /* border: 3px solid blueviolet; */

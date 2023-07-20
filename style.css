@@ -298,6 +298,11 @@
   width: 45%;
   margin-top: 150px;
 }
+.play-instantly-h {
+  /* border: 5px solid blue; */
+  display: flex;
+  flex-direction: column;
+}
 .play-instantly-heading {
   text-align: right;
   font-family: Work Sans;
@@ -321,9 +326,16 @@
   font-weight: 700;
   line-height: 60px;
 }
+.play-instantly-p1 {
+  display: flex;
+  /* border: 2px solid blue; */
+  /* padding: 20px; */
+}
 .play-instantly-p {
-  float: right;
-  width: 353px;
+  /* border: 2px solid tomato; */
+  /* float: right; */
+  /* width: 353px; */
+  margin-right: 30px;
   color: #534c64;
   text-align: right;
   font-family: Work Sans;
